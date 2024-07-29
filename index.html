@@ -12,7 +12,11 @@
     </header>
     <main>
         <p>Estamos trabajando en la plataforma que conectará trabajadores del sector tecnológico con empresas.</p>
-        <form id="contactForm">
+        <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p style="display:none;">
+                <label>Don’t fill this out if you're human: <input name="bot-field"></label>
+            </p>
             <h2>Contacto</h2>
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" required>
