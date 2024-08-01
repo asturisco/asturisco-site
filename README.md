@@ -1,2 +1,2 @@
 # asturisco-site
-Proyecto Asturisco: plataforma para conectar trabajadores del sector tecnológico con empresas
+Proyecto Asturisco: plataforma para conectar empresas y trabajadores del sector tecnológico.
